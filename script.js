@@ -1,3 +1,4 @@
+//*Funcion de encriptacion*//
 function encryptText() {
     let inputText = document.getElementById("input-text").value;
     let encryptedText = inputText
@@ -8,7 +9,7 @@ function encryptText() {
         .replace(/u/g, "ufat");
     document.getElementById("output-text").value = encryptedText;
 }
-
+//*Funcion de desencriptacion*//
 function decryptText() {
     let inputText = document.getElementById("input-text").value;
     let decryptedText = inputText
@@ -19,7 +20,7 @@ function decryptText() {
         .replace(/ufat/g, "u");
     document.getElementById("output-text").value = decryptedText;
 }
-
+//*Funcion de copiar*//
 function copyToClipboard() {
     let outputText = document.getElementById("output-text");
     outputText.select();
