@@ -11,4 +11,5 @@
 
 3-Copiar el Resultado: Una vez que el texto ha sido transformado, el usuario puede copiar el texto resultante haciendo clic en el botón "Copiar".</p>
 
+<h3>Estado del Proyecto</h3>
 - Estado del proyecto: Actualizacion de diseño.
