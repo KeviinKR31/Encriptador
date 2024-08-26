@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="tu-video.mp4" type="video/mp4">
+            Tu navegador no soporta el video de fondo.
+        </video>
+    </div>
+    <div class="container">
+        <h1>Encriptador de Textos</h1>
+        <div class="text-container">
+            <div class="input-container">
+                <textarea id="input-text" placeholder="Introduce tu texto aquí..."></textarea>
+                <div class="buttons">
+                    <button onclick="encryptText()">Encriptar</button>
+                    <button onclick="decryptText()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="output-container">
+                <textarea id="output-text" readonly placeholder="Aquí se mostrará el resultado..."></textarea>
+                <button class="Copiar" onclick="copyToClipboard()">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
