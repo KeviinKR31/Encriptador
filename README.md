@@ -2,6 +2,8 @@
 
 ![Diseño sin título](https://github.com/user-attachments/assets/276f4f97-c917-476d-8abb-5d7d19d6feeb)
 
+<h2>Como Funciona</h2>
+
 <p>
 1-Introduce el Texto: El usuario debe escribir el texto que desea encriptar o desencriptar en el área de texto que dice "Introduce tu texto aquí...".
 
